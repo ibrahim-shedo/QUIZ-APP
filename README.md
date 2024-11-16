@@ -1,4 +1,4 @@
-# Project Name: Quiz Game Web Application
+# Quiz Game Web Application
 
 ## Description
 This project is a simple, interactive quiz game built using HTML, CSS, and JavaScript. Users can test their knowledge by answering multiple-choice questions. The quiz displays questions one at a time and lets users know if their answer is correct or incorrect. After answering, users can proceed to the next question or restart the quiz when completed.

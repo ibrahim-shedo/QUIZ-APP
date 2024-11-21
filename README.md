@@ -16,35 +16,19 @@ This project is a simple, interactive quiz game built using HTML, CSS, and JavaS
    git clone https://github.com/yourusername/quiz-game.git
 Open the Project: Navigate to the project folder and open index.html in your web browser.
 Project Structure
-graphql
-Copy code
-project-folder/
-│
-├── index.html             # Main HTML file
-├── styles.css             # Optional CSS file for styling
-└── script.js              # Main JavaScript file containing game logic
-
-
-
 
 # How to Play
-
 ## Start the Game
 Click the "Start" button to begin the quiz.
-
 ## Answer Questions
 Select an answer by clicking one of the buttons.
-
 ## Proceed to Next Question
 Click the "Next" button to move to the following question if available.
-
 ## Restart
 Once all questions are answered, the "Restart" button will appear to replay the quiz.
-
 ---
 
 # Code Overview
-
 ## JavaScript Functions
 - `startGame()`: Initiates the game by hiding the start button, shuffling questions, and showing the question container.
 - `setNextQuestion()`: Moves to the next question and resets the state for a new question.
@@ -55,33 +39,27 @@ Once all questions are answered, the "Restart" button will appear to replay the 
 - `resetState()`: Prepares the interface for the next question by clearing previous answers.
 
 ## Sample Question Format
-
 javascript const questions = [ { question: 'What is the capital city of Somalia?', answers: [ { text: 'Nairobi', correct: false }, { text: 'Mogadishu', correct: true }, { text: 'Kigali', correct: false }, { text: 'Dar es Salaam', correct: false }, ] }, // Add more questions as needed ];
 
 
 ## Customization
-
 - Add New Questions: Expand the questions array in script.js to add more questions.
 - Change Styling: Modify styles.css to customize the look and feel of the application.
 
 ## Future Enhancements
-
 - Add a scoring system to keep track of user scores.
 - Introduce a timer for each question to increase the challenge.
 - Display a summary at the end with correct/incorrect counts.
 
 ## Technologies Used
-
 - HTML: Structure of the webpage.
 - CSS: Styling (optional, can add more for better UI).
 - JavaScript: Game logic and interactivity.
 
 ## License
-
 This project is open-source and available under the MIT License.
 
 ## Acknowledgments
-
 Inspired by basic quiz applications and tutorials.
 Special thanks to any contributors who assist in enhancing this project.
 Key points to consider:
